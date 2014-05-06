@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_js</type><script>sm_quicklogin/jquery-1.7.2.min.js</script></action>
+            <!--<action method="addItem"><type>skin_js</type><script>sm_quicklogin/quicklogin.js</script></action>-->
+        </reference>
+        <reference name="top.links">
+            <!--<action method="setTemplate"><template>sm_login/top.links.phtml</template></action>-->
+        </reference>
+        <block type="core/template" name="loginForm" output="toHtml" template="sm_login/loginform.phtml"/>
+        <!--<reference name="content">
+            <action method="setTemplate">
+                <template>sm_login/loginform.phtml</template>
+            </action>
+        </reference>-->
+
+    </default>
+</layout>

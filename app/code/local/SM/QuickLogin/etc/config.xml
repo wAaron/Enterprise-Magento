@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SM_QuickLogin>
+            <version>0.1.0</version>
+        </SM_QuickLogin>
+    </modules>
+    <global>
+        <helpers>
+            <quicklogin>
+                <class>SM_QuickLogin_Helper</class>
+            </quicklogin>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <quicklogin>
+                <use>standard</use>
+                <args>
+                    <module>SM_QuickLogin</module>
+                    <frontName>quicklogin</frontName>
+                </args>
+            </quicklogin>
+        </routers>
+        <layout>
+            <updates>
+                <quicklogin>
+                    <file>sm_quicklogin.xml</file>
+                </quicklogin>
+            </updates>
+        </layout>
+    </frontend>
+</config>

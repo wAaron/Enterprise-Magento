@@ -1,0 +1,62 @@
+#quicklogin {
+    background: none repeat scroll 0 0 #ffffff;
+    height: 100%;
+    right: 300px;
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    width: 250px;
+    height: 200px;
+    z-index: 9990;
+}
+#quicklogin .registered-users {
+    width: 200px;
+}
+#quicklogin .required {
+    width: 130px;
+}
+
+.register-form {
+    background: none repeat scroll 0 0 #ffffff;
+    height: 100%;
+    right: 300px;
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    width: 400px;
+    height: 400px;
+    z-index: 9990;
+}
+.register-form .form-list label {
+    text-align: left;
+    width: 130px;
+    padding-left: 20px;
+}
+.register-form .form-list input.input-text {
+    width: 100px;
+}
+
+
+.forgot-form {
+    background: none repeat scroll 0 0 #ffffff;
+    height: 100%;
+    right: 300px;
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    width: 400px;
+    height: 400px;
+    z-index: 9990;
+}
+
+.list-myaccount {
+    background: none repeat scroll 0 0 #ffffff;
+    height: 100%;
+    right: 300px;
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    width: 400px;
+    height: 400px;
+    z-index: 9990;
+}
